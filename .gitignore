@@ -1,0 +1,10 @@
+# phpStorm project files
+src/.idea
+.idea
+# folder "img" files
+
+# file "config.php"
+#src/config/config.php
+
+src/vendor
+src/composer.lock

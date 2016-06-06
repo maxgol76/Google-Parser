@@ -1,0 +1,9 @@
+#AuthType Basic
+#AuthName "Input login and password"
+#AuthUserFile /usr/home/testing_ground/.htpasswd
+#require valid-user
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* parser.php [L]
