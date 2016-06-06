@@ -6,5 +6,5 @@ src/.idea
 # file "config.php"
 #src/config/config.php
 
-src/vendor
-src/composer.lock
+#src/vendor
+#src/composer.lock
